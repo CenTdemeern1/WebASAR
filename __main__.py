@@ -1,6 +1,6 @@
 import http.server
 import uuid
-import os
+import subprocess
 import parsepost
 import shutil
 #i put them in seperate lines. here you go randomdude.    
@@ -55,8 +55,13 @@ def server():
                     break #yeah we got the information
             print('read done')
             useruuid=parsepost.main(rb)
-            os.system('asar\\asar.exe "uploads/'+str(useruuid)+'/patch.asm" "uploads/'+str(useruuid)+'/rom.smc"')
-            cpath=(self.path[1:] if self.path.startswith('/') else self.path).split('?')[0]
+            try:
+                subprocess.check_output('asar\\asar.exe "uploads/'+str(useruuid)+'/patch.asm" "uploads/'+str(useruuid)+'/rom.smc"',timeout=10)#hey, a timeout of 10 seconds is enough.
+                cpath=(self.path[1:] if self.path.startswith('/') else self.path).split('?')[0]
+            except subprocess.TimeoutExpired:
+                shutil.rmtree('uploads/'+str(useruuid))
+                useruuid=None
+                cpath='oops.txt'
             if useruuid!=None:
                 cfile=open('uploads/'+str(useruuid)+'/rom.smc','rb')
             else:
