@@ -1,5 +1,9 @@
-import http.server,uuid,os,parsepost,shutil #people always forget that you can do this (seperate by ",")
-    
+import http.server
+import uuid
+import os
+import parsepost
+import shutil
+#i put them in seperate lines. here you go randomdude.    
 
 def server():
     global cur
