@@ -1,3 +1,46 @@
+Hey, what are you doing here?
+This is a standard ASAR distribution.
+Nothing in here (except this README file) has been modified.
+The standard ASAR README is down further, scroll down.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Asar Readme
 ===========
 

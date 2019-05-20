@@ -1,7 +1,7 @@
 # WebASAR
 ###### Lazy name, I know.
 
-You can find asar [here](https://github.com/RPGHacker/asar).
+You can find normal ASAR [here](https://github.com/RPGHacker/asar), if you were looking for that instead.
 
 # *What it is:*
 
