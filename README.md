@@ -1,11 +1,11 @@
-# WebASAR
+# WebAsar
 ###### Lazy name, I know.
 
-You can find normal ASAR [here](https://github.com/RPGHacker/asar), if you were looking for that instead.
+You can find normal Asar [here](https://github.com/RPGHacker/asar), if you were looking for that instead.
 
 # *What it is:*
 
-1. A webserver (http) that integrates with the ASAR assembler.
+1. A webserver (http) that integrates with the Asar assembler.
 2. Written in Python 3
 3. A fork of a framework I'm working on, most features have been taken out though, it doesn't need them
 4. Janky
@@ -15,8 +15,8 @@ You can find normal ASAR [here](https://github.com/RPGHacker/asar), if you were 
 1. Finished
 2. Fast
 3. A javascript port
-4. A full ASAR distribution (it only patches atm)
-5. A replacement for your default ASAR
+4. A full Asar distribution (it only patches atm)
+5. A replacement for your default Asar
 
 # *Shounds bearable, how do I run it?*
 1. Download python 3.7 or higher (preferrably 3.7, that's what it's made for).
