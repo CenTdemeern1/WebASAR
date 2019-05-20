@@ -1,7 +1,7 @@
 Hey, what are you doing here?
-This is a standard ASAR distribution.
+This is a standard Asar distribution.
 Nothing in here (except this README file) has been modified.
-The standard ASAR README is down further, scroll down.
+The standard Asar README is down further, scroll down.
 
 
 
