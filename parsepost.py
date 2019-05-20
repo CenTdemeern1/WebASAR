@@ -10,8 +10,6 @@ def main(b):
         f.remove(b'\r\n')
     for i in f:
         i=i[i.find(b'\r\n')+2:]
-        #while '\r\n\r\n' in i:
-        #    i=i.replace('\r\n\r\n','\r\n')
         if i==b'':
             pass
         elif i.startswith(b'Content-Disposition: form-data; name="fileToUpload1"'):
