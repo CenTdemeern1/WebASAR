@@ -75,9 +75,10 @@ def server():
             cfile.close()
             print('served page for post request on page',self.path)
             print('now deleting user content')
-            shutil.rmtree('uploads/'+str(useruuid))
-            print('deleted user content for UUID'+str(useruuid)+'.')
-            return useruuid
+            if useruuid!=None:
+                shutil.rmtree('uploads/'+str(useruuid))
+                print('deleted user content for UUID'+str(useruuid)+'.')
+            return
         def log_message(self, format, *args): return
     https=http.server.ThreadingHTTPServer(('localhost',80),handler)
     print('server start')
